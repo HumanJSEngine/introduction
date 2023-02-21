@@ -1,0 +1,33 @@
+.profile {
+    .inner {
+        .contents {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .profile-box {
+                width: calc(50% - 10px);
+                text-align: center;
+                background-color: green;
+                img {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $desktop) {
+}
+
+@media screen and (max-width: $tablet) {
+}
+
+@media screen and (max-width: $mp) {
+    .profile .contents {
+        flex-wrap: wrap !important;
+    }
+    .profile-box {
+        width: 100% !important;
+    }
+}
