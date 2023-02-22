@@ -1,13 +1,16 @@
-import React from 'react';
+// import React, { useRef } from 'react';
 import logo from '../assets/images/img.png';
+// import Anime from '../assets/Anime';
 
 const Visual = () => {
     return (
-        <div className='visual'>
+        <section className='visual scroll'>
             <div className='inner'>
+                {/* 첫인상 남기기 사진 */}
                 <img src={logo} alt='visual' />
+                {/* Anime 샘플 */}
             </div>
-        </div>
+        </section>
     );
 };
 
