@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/HumanJSEngine/introduction.git/static/css/main.169f0e48.css",
+    "main.js": "/HumanJSEngine/introduction.git/static/js/main.96f07735.js",
+    "static/media/sample1.png": "/HumanJSEngine/introduction.git/static/media/sample1.96f21124922930a8ccdb.png",
+    "static/media/img.png": "/HumanJSEngine/introduction.git/static/media/img.fdfce169a81cc9f7362e.png",
+    "static/media/profile2.png": "/HumanJSEngine/introduction.git/static/media/profile2.94a9a83f7aa7317f8e5d.png",
+    "static/media/life.png": "/HumanJSEngine/introduction.git/static/media/life.2ad8d22ba3895b7ba501.png",
+    "static/media/profile1.png": "/HumanJSEngine/introduction.git/static/media/profile1.bf036fef0ffaff840a24.png",
+    "static/media/skill-react.png": "/HumanJSEngine/introduction.git/static/media/skill-react.6e9175f26cca87c1babe.png",
+    "static/media/skill-css.png": "/HumanJSEngine/introduction.git/static/media/skill-css.c63d978f70a01f233899.png",
+    "static/media/skill-sass.png": "/HumanJSEngine/introduction.git/static/media/skill-sass.100c9392b086086d6b77.png",
+    "index.html": "/HumanJSEngine/introduction.git/index.html",
+    "main.169f0e48.css.map": "/HumanJSEngine/introduction.git/static/css/main.169f0e48.css.map",
+    "main.96f07735.js.map": "/HumanJSEngine/introduction.git/static/js/main.96f07735.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.169f0e48.css",
+    "static/js/main.96f07735.js"
+  ]
+}
