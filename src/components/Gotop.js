@@ -2,7 +2,7 @@ import React from 'react';
 import Anime from '../assets/Anime';
 import { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const Gotop = () => {
     const bt = useRef(null);
@@ -33,7 +33,7 @@ const Gotop = () => {
                 new Anime(window, { prop: 'scroll', value: 0, duration: 500 });
             }}
         >
-            <FontAwesomeIcon icon='fa-solid fa-arrow-up' />
+            <FontAwesomeIcon icon={faArrowUp} />
         </div>
     );
 };

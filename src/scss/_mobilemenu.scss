@@ -1,8 +1,4 @@
 .mobile {
-    &.active {
-        left: 0 !important;
-    }
-
     position: fixed;
     left: 100%;
     top: 80px;
@@ -28,7 +24,7 @@
 }
 
 .active {
-    left: 0 !important;
+    right: 0 !important;
 }
 
 // 데스크탑

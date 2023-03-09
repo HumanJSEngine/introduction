@@ -1,5 +1,5 @@
 // import React, { useRef } from 'react';
-import logo from '../assets/images/img.png';
+import logo from '../assets/images/intro.jpg'
 // import Anime from '../assets/Anime';
 
 const Visual = () => {
