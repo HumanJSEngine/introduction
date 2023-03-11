@@ -13,213 +13,23 @@ const Portfolio = () => {
                 {/* 개발담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 > 프론트)) */}
                 <h2 data-aos='fade-up'>Portfolio</h2>
                 <div className='contents'>
-                    {/* 팀프로젝트 */}
-                    <div className='portfolio-box'>
-                        <h3 data-aos='fade-up'>Team Project</h3>
-                        <div className='portfolio-team'>
-                            <div className='portfolio-left'>
-                                <a
-                                    href='https://github.com/HumanJSEngine/hansalim'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='project' />
-                                </a>
-                            </div>
-                            <div className='portfolio-right'>
-                                <ul className='portfilio-team-list'>
-                                    <li>프로젝트명 : </li>
-                                    <li>프로젝트 기간 : </li>
-                                    <li>프로젝트 주제 : </li>
-                                    <li>프로젝트 기여도 : </li>
-                                    <li>프로젝트 도구 : </li>
-                                    <li>프로젝트 사용언어 : </li>
-                                    <li>프로젝트 피그마 : </li>
-                                    <li>프로젝트 Git : </li>
-                                    <li>프로젝트 노션 : </li>
-                                </ul>
+                    <div className='project'>
+                        <div className='pinfo'>
+                            <iframe
+                                id='inlineFrameExample'
+                                title='Inline Frame Example'
+                                width='700'
+                                height='400'
+                                src='https://user-images.githubusercontent.com/103413040/223362125-f9ffb27c-29b4-45b3-b91c-d050722efeec.mp4'
+                            ></iframe>
+
+                            <div className='pinforight'>
+                                <p>미니 교보문고(토이프로젝트)</p>
+                                <span>
+                                    작업시기 - 2022.12.3주 ~ 2022.12.4주
+                                </span>
                             </div>
                         </div>
-                        <div className='portfolio-team'>
-                            <div className='portfolio-left'>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='project' />
-                                </a>
-                                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-                            </div>
-                            <div className='portfolio-right'>
-                                <ul className='portfilio-team-list'>
-                                    <li>프로젝트명 : </li>
-                                    <li>프로젝트 기간 : </li>
-                                    <li>프로젝트 주제 : </li>
-                                    <li>프로젝트 기여도 : </li>
-                                    <li>프로젝트 도구 : </li>
-                                    <li>프로젝트 사용언어 : </li>
-                                    <li>프로젝트 피그마 : </li>
-                                    <li>프로젝트 Git : </li>
-                                    <li>프로젝트 노션 : </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className='portfolio-team'>
-                            <div className='portfolio-left'>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='project' />
-                                </a>
-                                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-                            </div>
-                            <div className='portfolio-right'>
-                                <ul className='portfilio-team-list'>
-                                    <li>프로젝트명 : </li>
-                                    <li>프로젝트 기간 : </li>
-                                    <li>프로젝트 주제 : </li>
-                                    <li>프로젝트 기여도 : </li>
-                                    <li>프로젝트 도구 : </li>
-                                    <li>프로젝트 사용언어 : </li>
-                                    <li>프로젝트 피그마 : </li>
-                                    <li>프로젝트 Git : </li>
-                                    <li>프로젝트 노션 : </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className='portfolio-team'>
-                            <div className='portfolio-left'>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='project' />
-                                </a>
-                                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-                            </div>
-                            <div className='portfolio-right'>
-                                <ul className='portfilio-team-list'>
-                                    <li>프로젝트명 : </li>
-                                    <li>프로젝트 기간 : </li>
-                                    <li>프로젝트 주제 : </li>
-                                    <li>프로젝트 기여도 : </li>
-                                    <li>프로젝트 도구 : </li>
-                                    <li>프로젝트 사용언어 : </li>
-                                    <li>프로젝트 피그마 : </li>
-                                    <li>프로젝트 Git : </li>
-                                    <li>프로젝트 노션 : </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    {/* 개인 스터디 프로젝트 */}
-                    <div className='portfolio-box'>
-                        <h3>Study Project</h3>
-                        {/* Swiper 배치 */}
-                        <Swiper
-                            loop={true}
-                            slidesPerView={1}
-                            spaceBetween={15}
-                            pagination={true}
-                            navigation={true}
-                            modules={[Pagination, Navigation]}
-                            className='portfolio-slide'
-                            breakpoints={{
-                                640: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 20,
-                                },
-                                768: {
-                                    slidesPerView: 4,
-                                    spaceBetween: 40,
-                                },
-                                860: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 0,
-                                },
-                                960: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 30,
-                                },
-                                1180: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 30,
-                                },
-                                1024: {
-                                    slidesPerView: 5,
-                                    spaceBetween: 50,
-                                },
-                            }}
-                        >
-                            <SwiperSlide>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='portfolio' />
-                                </a>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='portfolio' />
-                                </a>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='portfolio' />
-                                </a>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='portfolio' />
-                                </a>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='portfolio' />
-                                </a>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    alt='portfolio'
-                                >
-                                    <img src={sample} alt='portfolio' />
-                                </a>
-                            </SwiperSlide>
-                        </Swiper>
                     </div>
                 </div>
             </div>

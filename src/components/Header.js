@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import gitimg from '../assets/images/profileimg.jpg';
 
 export const Header = ({ setPage, setOpen, open }) => {
     return (
@@ -8,7 +9,8 @@ export const Header = ({ setPage, setOpen, open }) => {
             <div className='inner'>
                 <nav className='nav'>
                     <span className='header-logo' onClick={() => setPage(0)}>
-                        BMJ Profile
+                        <img src={gitimg} alt='' />
+                        BMJ
                     </span>
                     <ul className='gnb'>
                         <li onClick={() => setPage(0)}>
