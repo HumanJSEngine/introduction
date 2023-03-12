@@ -31,7 +31,7 @@ const Life = () => {
             </div>
           </div>
           <div className="edu">
-            <p>OPIC</p>
+            <p>어학시험 (OPIC)</p>
             <div className="eduinner">
               <span>취득일자</span>
               <span>2022.8</span>
