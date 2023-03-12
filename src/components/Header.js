@@ -3,7 +3,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
+import { BsEmojiSunglassesFill, BsEmojiSunglasses } from 'react-icons/bs';
 import gitimg from '../assets/images/profileimg.jpg';
 
 export const Header = ({
@@ -39,7 +39,7 @@ export const Header = ({
             </li>
           </ul>
           <span className="dark" onClick={() => toggleDarkMode()}>
-            {isDarkMode ? <BsFillSunFill /> : <BsFillMoonFill />}
+            {isDarkMode ? <BsEmojiSunglasses /> : <BsEmojiSunglassesFill />}
           </span>
           <span
             className="mobile-bt"
