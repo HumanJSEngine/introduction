@@ -1,9 +1,11 @@
 /** @format */
 
 .portfolio {
+  padding: 40px 0px;
   .inner {
-    h2 {
+    .pftitle {
       position: relative;
+      font-size: 35px;
       padding-left: 50px;
       &::after {
         content: '';
@@ -12,7 +14,7 @@
         height: 20px;
         background: rgb(174, 170, 170);
         left: 0;
-        top: 78px;
+        top: 28px;
         opacity: 0.3;
       }
     }
@@ -21,7 +23,6 @@
     }
     .project {
       width: 1400px;
-      background: whitesmoke;
       border-radius: 30px;
       box-shadow: inset 0 0 5px #333;
       margin-top: 25px;

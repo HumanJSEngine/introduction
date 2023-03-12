@@ -1,13 +1,12 @@
 /** @format */
 
 import React from 'react';
-import life from '../assets/images/life.png';
 
 const Life = () => {
   return (
     <section className="life scroll">
       <div className="inner">
-        <h2>Education</h2>
+        <p className='edutitle'>Education</p>
         <div className="contents">
           <div className="edu">
             <p>그린아트아카데미 수료</p>
