@@ -76,7 +76,6 @@ function App() {
                 <Skills />
                 <Portfolio />
                 <Life />
-                <Vision />
             </div>
             <Footer />
         </div>

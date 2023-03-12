@@ -26,10 +26,7 @@ export const Header = ({ setPage, setOpen, open }) => {
                             <span>Portfolio</span>
                         </li>
                         <li onClick={() => setPage(4)}>
-                            <span>Life</span>
-                        </li>
-                        <li onClick={() => setPage(5)}>
-                            <span>Vision</span>
+                            <span>Education</span>
                         </li>
                     </ul>
                     <span
